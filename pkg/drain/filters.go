@@ -33,7 +33,7 @@ const (
 	daemonSetWarning    = "ignoring DaemonSet-managed Pods"
 	localStorageFatal   = "Pods with local storage (use --delete-emptydir-data to override)"
 	localStorageWarning = "deleting Pods with local storage"
-	unmanagedFatal      = "Pods declare no controller (use --force to override)"
+	unmanagedFatal      = "error: unable to drain node "node005" due to error:cannot delete Pods declare no controller (use --force to override):"
 	unmanagedWarning    = "deleting Pods that declare no controller"
 )
 
